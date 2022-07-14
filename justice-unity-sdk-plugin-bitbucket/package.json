@@ -1,0 +1,32 @@
+{
+  "name": "com.accelbyte.unitysdk",
+  "displayName": "AccelByte Unity SDK",
+  "version": "14.0.0",
+  "unity": "2020.3",
+  "description": "Official AccelByte's backend service SDK for Unity game engine",
+  "keywords": [
+    "accelbyte",
+    "third party",
+    "services",
+    "multiplayer",
+    "backend"
+  ],
+  "author": {
+    "name": "AccelByte Inc",
+    "url": "https://accelbyte.io/"
+  },
+  "changelogUrl": "https://github.com/AccelByte/accelbyte-unity-sdk/releases",
+  "documentationUrl": "https://docs.accelbyte.io/gsg/sdk-guides/unity-sdk-getting-started.html",
+  "hideInEditor": false,
+  "category": "editor extensions",
+  "homepage": "https://accelbyte.io/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AccelByte/accelbyte-unity-sdk"
+  },
+  "bugs": "https://github.com/AccelByte/accelbyte-unity-sdk/issues",
+  "type": "library",
+  "dependencies": {
+	"com.unity.nuget.newtonsoft-json": "3.0.1"
+  }
+}
