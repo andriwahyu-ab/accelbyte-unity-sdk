@@ -6,7 +6,7 @@
 
 1. Download the whole repository.
 2. Create a file named **AccelByteSDKConfig.json** and add it to *Assets\Resources* directory. Fill the _PublisherNamespace_, _ClientId_, _ClientSecret_, _Namespace_ and _AppId_(app namespace), _BaseUrl_, and _RedirectUri_ according to your own. Here's the content of the json file:
-
+testing testing
 ```json
 {
     "ClientId":"<GAME_CLIENT_ID>",

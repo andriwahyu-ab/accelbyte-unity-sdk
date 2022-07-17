@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [14.1.0](https://github.com/AccelByte/accelbyte-unity-sdk/branches/compare/14.1.0%0D14.0.0) (2022-07-17)
+
+
+### Features
+
+* testing ([791bfb2](https://github.com/AccelByte/accelbyte-unity-sdk/commits/791bfb23ca8d1ee9b7aeb7a049cc8a709d3379af))
+* testing purporses ([34f2c9f](https://github.com/AccelByte/accelbyte-unity-sdk/commits/34f2c9fbd829c2eb5461aadddbf5a06f2f5a4db3))
+
 ## [13.1.0](https://bitbucket.org/accelbyte/justice-unity-sdk/branches/compare/13.1.0%0D13.0.0) (2022-06-20)
 
 
