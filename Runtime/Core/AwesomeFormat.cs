@@ -208,14 +208,23 @@ namespace AccelByte.Core
                         {
                             for (int i = 0; i < array.Length; i++)
                             {
-                                var parsedValue = Convert.ChangeType(strItems[i].Trim(' '), fieldInfo.FieldType.GetElementType());
-                                if (fieldInfo.FieldType.GetElementType() == typeof(string))
+                                if (fieldInfo.FieldType.GetElementType().IsEnum)
                                 {
-                                    array.SetValue(Uri.UnescapeDataString((string)parsedValue), i);
+                                    var obj = Activator.CreateInstance(fieldInfo.FieldType.GetElementType());
+                                    obj = Enum.Parse(fieldInfo.FieldType.GetElementType(), Uri.UnescapeDataString((string)strItems[i]), true);
+                                    array.SetValue(obj, i);
                                 }
                                 else
                                 {
-                                    array.SetValue(parsedValue, i);
+                                    var parsedValue = Convert.ChangeType(strItems[i].Trim(' '), fieldInfo.FieldType.GetElementType());
+                                    if (fieldInfo.FieldType.GetElementType() == typeof(string))
+                                    {
+                                        array.SetValue(Uri.UnescapeDataString((string)parsedValue), i);
+                                    }
+                                    else
+                                    {
+                                        array.SetValue(parsedValue, i);
+                                    }
                                 }
                             }
 

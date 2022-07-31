@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [14.1.0](https://github.com/AccelByte/accelbyte-unity-sdk/branches/compare/14.1.0%0D14.0.1) (2022-07-31)
+
+
+### Features
+
+* **basic:** added category param in generate upload url for user content ([2e3ac30](https://github.com/AccelByte/accelbyte-unity-sdk/commits/2e3ac300a24760d4c7f023e6300a53b6a4d131cb))
+* **iam:** EA Origin Authentication Integration ([ee83f59](https://github.com/AccelByte/accelbyte-unity-sdk/commits/ee83f599d5bef8a84d190cb2e1b4a5960b525fea))
+* Lobby function signature change to follow the rest of WrapperBase class ([394f8d3](https://github.com/AccelByte/accelbyte-unity-sdk/commits/394f8d3a430843c419314d52a69755163350f129))
+* Purchasing Requirements ([9517cdc](https://github.com/AccelByte/accelbyte-unity-sdk/commits/9517cdca58ab1415fe614d7ecd10a46fd144cee1))
+* unity new item type optionbox ([fa324dd](https://github.com/AccelByte/accelbyte-unity-sdk/commits/fa324ddb73e18c90db5c557de455147362b711cc))
+
+
+### Bug Fixes
+
+* **apiclient:** older version of Unity doesn't support  TryAdd function ([3d44eeb](https://github.com/AccelByte/accelbyte-unity-sdk/commits/3d44eebd2ce726e4ff6fc63711047917eec8b51d))
+
 ## [13.1.0](https://bitbucket.org/accelbyte/justice-unity-sdk/branches/compare/13.1.0%0D13.0.0) (2022-06-20)
 
 
